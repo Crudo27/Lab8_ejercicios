@@ -1,0 +1,22 @@
+TABLAS CREADAS: 8
+estadistica_juego     : 10 registros
+juego                 : 10 registros
+logro                 : 10 registros
+logro_desbloqueado    : 10 registros
+participacion         : 10 registros
+partida               : 10 registros
+perfil_jugador        : 10 registros
+usuario               : 10 registros
+CONSULTA usuarios_activos    : 10 filas
+CONSULTA juegos_capacidad    : 10 filas
+CONSULTA partidas_por_juego  : 2 filas
+CONSULTA historial_usuario   : 2 filas
+CONSULTA puntaje_minimo      : 5 filas
+CONSULTA finalizadas_region  : 5 filas
+CONSULTA logros_usuario      : 2 filas
+PRUEBA 1:1: duplicado rechazado
+PRUEBA FK: usuario inexistente rechazado
+PRUEBA ROLLBACK: cambio revertido correctamente
+PRUEBA 3 UPDATE + 3 DELETE: seis operaciones confirmadas
+PRUEBA FINAL FK: sin referencias invalidas
+RESULTADO: VALIDACION SQL SUPERADA
